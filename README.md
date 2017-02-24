@@ -1,6 +1,4 @@
 ---
-layout: default
-published: true
 title: Ralph on technology....
 ---
 
