@@ -118,7 +118,7 @@ acsengine took 5.3896201s
 ```
 The acs-engine generated quite a bunch of files, though the most interesting ones are **apimodel.json**, **azuredeploy.json** and **azuredeploy.parameters.json**. That is enough to deploy the cluster.
 
-### How to deploy the generate ARM template
+### How to deploy the generated ARM template
 
 To finally bring the cluster in azure to life, the [Azure CLI](https://docs.microsoft.com/en-us/azure/xplat-cli-install) is used. Hence, since an existing vnet should be leveraged in this example, a resource group called **kubrg1** is already existing within Azure before deploying the cluster. Also the vnet is already configured. The following command triggers the deployment of the cluster. This can take some minutes to finish.
 
