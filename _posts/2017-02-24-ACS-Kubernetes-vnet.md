@@ -129,7 +129,7 @@ azure group deployment create -f "_output/Kubernetes-68763472/azuredeploy.json" 
 
 It is important to make the generated routetable aware of the existing vnet. If this is not happening, then the cluster is not functioning as expected.
 
-![Routetable](../images/kubernetes-vnet-routetable.png)
+![Routetable]({{ site.url }}/assets/images/kubernetes-vnet-routetable.png)
 
 
 ### How to update the cluster leveraging the previously generated files
