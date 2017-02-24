@@ -2,7 +2,6 @@
 layout: default
 published: true
 title: Ralph on technology....
-order: 1
 ---
 
 This is a blog about technical stuff I am dealing with every day. 
