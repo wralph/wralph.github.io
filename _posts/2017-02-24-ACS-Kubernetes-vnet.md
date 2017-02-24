@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Deploying an Azure ACS Kubernetes cluster within a vnet
 date:   2017-02-24 10:00:00 +0100
 categories: Azure Kubernetes VNet
