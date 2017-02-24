@@ -1,4 +1,9 @@
-## Deploying an azure acs kubernetes cluster within a vnet
+---
+layout: post
+title: Deploying an Azure ACS Kubernetes cluster within a vnet
+---
+
+## Deploying an Azure ACS Kubernetes cluster within a vnet
 
 Deploying a kubernetes cluster within azure inside a custom/existing vnet can, as of now, not be done via the portal yet. Under the hood azure uses the [acs-engine](https://github.com/Azure/acs-engine) to generate the respective ARM templates out of a definition. Those templates are used to deploy the actual cluster within azure. Using the acs-engine, you can tweak the generation of the template for instance by including the nodes to a vnet. 
 
